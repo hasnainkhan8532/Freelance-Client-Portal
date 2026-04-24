@@ -1,0 +1,129 @@
+{
+  "communities": {
+    "0": [
+      "card_cardaction",
+      "card_cn",
+      "components_ui_card_tsx",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_ui_card_tsx"
+    ],
+    "1": [
+      "components_create_account_page_tsx",
+      "create_account_page_handlesubmit",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_create_account_page_tsx"
+    ],
+    "2": [
+      "components_sign_in_page_tsx",
+      "sign_in_page_handlesubmit",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_sign_in_page_tsx"
+    ],
+    "3": [
+      "aurora_aurora",
+      "components_aurora_tsx",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_aurora_tsx"
+    ],
+    "4": [
+      "auth_form_field_authformfield",
+      "components_auth_form_field_tsx",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_auth_form_field_tsx"
+    ],
+    "5": [
+      "components_ui_label_tsx",
+      "label_label",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_ui_label_tsx"
+    ],
+    "6": [
+      "button_cn",
+      "components_ui_button_tsx",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_ui_button_tsx"
+    ],
+    "7": [
+      "components_ui_input_tsx",
+      "input_input",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_ui_input_tsx"
+    ],
+    "8": [
+      "lib_utils_ts",
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_lib_utils_ts",
+      "utils_cn"
+    ],
+    "9": [
+      "components_client_portal_logo_tsx"
+    ],
+    "10": [
+      "users_hasnainayazmacbook_my_mac_client_portal_astro_app_src_components_client_portal_logo_tsx"
+    ]
+  },
+  "cohesion": {
+    "0": 0.67,
+    "1": 0.67,
+    "2": 0.67,
+    "3": 0.67,
+    "4": 0.67,
+    "5": 0.67,
+    "6": 0.67,
+    "7": 0.67,
+    "8": 0.67,
+    "9": 1.0,
+    "10": 1.0
+  },
+  "gods": [
+    {
+      "id": "create_account_page_handlesubmit",
+      "label": "handleSubmit()",
+      "degree": 2
+    },
+    {
+      "id": "sign_in_page_handlesubmit",
+      "label": "handleSubmit()",
+      "degree": 2
+    },
+    {
+      "id": "aurora_aurora",
+      "label": "Aurora()",
+      "degree": 2
+    },
+    {
+      "id": "auth_form_field_authformfield",
+      "label": "AuthFormField()",
+      "degree": 2
+    },
+    {
+      "id": "card_cn",
+      "label": "cn()",
+      "degree": 2
+    },
+    {
+      "id": "card_cardaction",
+      "label": "CardAction()",
+      "degree": 2
+    },
+    {
+      "id": "label_label",
+      "label": "Label()",
+      "degree": 2
+    },
+    {
+      "id": "button_cn",
+      "label": "cn()",
+      "degree": 2
+    },
+    {
+      "id": "input_input",
+      "label": "Input()",
+      "degree": 2
+    },
+    {
+      "id": "utils_cn",
+      "label": "cn()",
+      "degree": 2
+    }
+  ],
+  "surprises": [],
+  "questions": [
+    {
+      "type": "no_signal",
+      "question": null,
+      "why": "Not enough signal to generate questions. This usually means the corpus has no AMBIGUOUS edges, no bridge nodes, no INFERRED relationships, and all communities are tightly cohesive. Add more files or run with --mode deep to extract richer edges."
+    }
+  ]
+}

@@ -1,0 +1,346 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "label": "astro.config.mjs",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/astro.config.mjs",
+      "source_location": "L1",
+      "id": "astro_config_mjs",
+      "community": 9,
+      "norm_label": "astro.config.mjs"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/eslint.config.js",
+      "source_location": "L1",
+      "id": "eslint_config_js",
+      "community": 10,
+      "norm_label": "eslint.config.js"
+    },
+    {
+      "label": "create-account-page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/create-account-page.tsx",
+      "source_location": "L1",
+      "id": "src_components_create_account_page_tsx",
+      "community": 1,
+      "norm_label": "create-account-page.tsx"
+    },
+    {
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/create-account-page.tsx",
+      "source_location": "L28",
+      "id": "create_account_page_handlesubmit",
+      "community": 1,
+      "norm_label": "handlesubmit()"
+    },
+    {
+      "label": "sign-in-page.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/sign-in-page.tsx",
+      "source_location": "L1",
+      "id": "src_components_sign_in_page_tsx",
+      "community": 2,
+      "norm_label": "sign-in-page.tsx"
+    },
+    {
+      "label": "handleSubmit()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/sign-in-page.tsx",
+      "source_location": "L28",
+      "id": "sign_in_page_handlesubmit",
+      "community": 2,
+      "norm_label": "handlesubmit()"
+    },
+    {
+      "label": "Aurora.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/Aurora.tsx",
+      "source_location": "L1",
+      "id": "src_components_aurora_tsx",
+      "community": 3,
+      "norm_label": "aurora.tsx"
+    },
+    {
+      "label": "Aurora()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/Aurora.tsx",
+      "source_location": "L118",
+      "id": "aurora_aurora",
+      "community": 3,
+      "norm_label": "aurora()"
+    },
+    {
+      "label": "auth-form-field.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/auth-form-field.tsx",
+      "source_location": "L1",
+      "id": "src_components_auth_form_field_tsx",
+      "community": 4,
+      "norm_label": "auth-form-field.tsx"
+    },
+    {
+      "label": "AuthFormField()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/auth-form-field.tsx",
+      "source_location": "L17",
+      "id": "auth_form_field_authformfield",
+      "community": 4,
+      "norm_label": "authformfield()"
+    },
+    {
+      "label": "client-portal-logo.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/client-portal-logo.tsx",
+      "source_location": "L1",
+      "id": "src_components_client_portal_logo_tsx",
+      "community": 11,
+      "norm_label": "client-portal-logo.tsx"
+    },
+    {
+      "label": "card.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/card.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_card_tsx",
+      "community": 0,
+      "norm_label": "card.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/card.tsx",
+      "source_location": "L14",
+      "id": "card_cn",
+      "community": 0,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "CardAction()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/card.tsx",
+      "source_location": "L59",
+      "id": "card_cardaction",
+      "community": 0,
+      "norm_label": "cardaction()"
+    },
+    {
+      "label": "label.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/label.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_label_tsx",
+      "community": 5,
+      "norm_label": "label.tsx"
+    },
+    {
+      "label": "Label()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/label.tsx",
+      "source_location": "L6",
+      "id": "label_label",
+      "community": 5,
+      "norm_label": "label()"
+    },
+    {
+      "label": "button.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/button.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_button_tsx",
+      "community": 6,
+      "norm_label": "button.tsx"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/button.tsx",
+      "source_location": "L61",
+      "id": "button_cn",
+      "community": 6,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "input.tsx",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/input.tsx",
+      "source_location": "L1",
+      "id": "src_components_ui_input_tsx",
+      "community": 7,
+      "norm_label": "input.tsx"
+    },
+    {
+      "label": "Input()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/input.tsx",
+      "source_location": "L5",
+      "id": "input_input",
+      "community": 7,
+      "norm_label": "input()"
+    },
+    {
+      "label": "utils.ts",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/lib/utils.ts",
+      "source_location": "L1",
+      "id": "src_lib_utils_ts",
+      "community": 8,
+      "norm_label": "utils.ts"
+    },
+    {
+      "label": "cn()",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/lib/utils.ts",
+      "source_location": "L4",
+      "id": "utils_cn",
+      "community": 8,
+      "norm_label": "cn()"
+    },
+    {
+      "label": "astro.config.mjs",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/astro.config.mjs",
+      "source_location": "L1",
+      "id": "users_hasnainayazmacbook_my_mac_client_portal_astro_app_astro_config_mjs",
+      "community": 12,
+      "norm_label": "astro.config.mjs"
+    },
+    {
+      "label": "eslint.config.js",
+      "file_type": "code",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/eslint.config.js",
+      "source_location": "L1",
+      "id": "users_hasnainayazmacbook_my_mac_client_portal_astro_app_eslint_config_js",
+      "community": 13,
+      "norm_label": "eslint.config.js"
+    }
+  ],
+  "links": [
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/create-account-page.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "src_components_create_account_page_tsx",
+      "_tgt": "create_account_page_handlesubmit",
+      "source": "src_components_create_account_page_tsx",
+      "target": "create_account_page_handlesubmit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/sign-in-page.tsx",
+      "source_location": "L28",
+      "weight": 1.0,
+      "_src": "src_components_sign_in_page_tsx",
+      "_tgt": "sign_in_page_handlesubmit",
+      "source": "src_components_sign_in_page_tsx",
+      "target": "sign_in_page_handlesubmit",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/Aurora.tsx",
+      "source_location": "L118",
+      "weight": 1.0,
+      "_src": "src_components_aurora_tsx",
+      "_tgt": "aurora_aurora",
+      "source": "src_components_aurora_tsx",
+      "target": "aurora_aurora",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/auth-form-field.tsx",
+      "source_location": "L17",
+      "weight": 1.0,
+      "_src": "src_components_auth_form_field_tsx",
+      "_tgt": "auth_form_field_authformfield",
+      "source": "src_components_auth_form_field_tsx",
+      "target": "auth_form_field_authformfield",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/card.tsx",
+      "source_location": "L40",
+      "weight": 1.0,
+      "_src": "src_components_ui_card_tsx",
+      "_tgt": "card_cn",
+      "source": "src_components_ui_card_tsx",
+      "target": "card_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/card.tsx",
+      "source_location": "L59",
+      "weight": 1.0,
+      "_src": "src_components_ui_card_tsx",
+      "_tgt": "card_cardaction",
+      "source": "src_components_ui_card_tsx",
+      "target": "card_cardaction",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/label.tsx",
+      "source_location": "L6",
+      "weight": 1.0,
+      "_src": "src_components_ui_label_tsx",
+      "_tgt": "label_label",
+      "source": "src_components_ui_label_tsx",
+      "target": "label_label",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/button.tsx",
+      "source_location": "L61",
+      "weight": 1.0,
+      "_src": "src_components_ui_button_tsx",
+      "_tgt": "button_cn",
+      "source": "src_components_ui_button_tsx",
+      "target": "button_cn",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/components/ui/input.tsx",
+      "source_location": "L5",
+      "weight": 1.0,
+      "_src": "src_components_ui_input_tsx",
+      "_tgt": "input_input",
+      "source": "src_components_ui_input_tsx",
+      "target": "input_input",
+      "confidence_score": 1.0
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "/Users/hasnainayazmacbook/My Mac/client-portal/astro-app/src/lib/utils.ts",
+      "source_location": "L4",
+      "weight": 1.0,
+      "_src": "src_lib_utils_ts",
+      "_tgt": "utils_cn",
+      "source": "src_lib_utils_ts",
+      "target": "utils_cn",
+      "confidence_score": 1.0
+    }
+  ],
+  "hyperedges": []
+}

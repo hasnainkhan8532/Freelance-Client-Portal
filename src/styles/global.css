@@ -2,12 +2,31 @@
 @import "tw-animate-css";
 @import "shadcn/tailwind.css";
 @import "@fontsource-variable/geist";
+@import "@fontsource-variable/inter";
+@import "@fontsource-variable/space-grotesk";
 
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
-    --font-heading: var(--font-sans);
-    --font-sans: 'Geist Variable', sans-serif;
+    /* Client Portal — brand tokens (use: bg-brand-surface, text-brand-muted, etc.) */
+    --color-brand-amber: #ffb700;
+    --color-brand-amber-hover: #ffc42e;
+    --color-brand-amber-foreground: #6b4b00;
+    --color-brand-surface: #0a0a0a;
+    --color-brand-surface-alt: #131313;
+    --color-brand-card: #2a2a2a;
+    --color-brand-text: #e5e2e1;
+    --color-brand-text-bright: #fafafa;
+    --color-brand-muted: #737373;
+    --color-brand-muted-dim: #525252;
+    --color-brand-line: #514532;
+    --color-brand-placeholder: #525252;
+    --color-brand-success: #34a853;
+    --color-brand-border-subtle: rgba(81, 69, 50, 0.1);
+
+    --font-heading: 'Space Grotesk Variable', 'Geist Variable', sans-serif;
+    --font-display: 'Space Grotesk Variable', 'Geist Variable', sans-serif;
+    --font-sans: 'Inter Variable', 'Geist Variable', sans-serif;
     --color-sidebar-ring: var(--sidebar-ring);
     --color-sidebar-border: var(--sidebar-border);
     --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -127,4 +146,50 @@
   html {
     @apply font-sans;
     }
+}
+
+@keyframes auth-field-in {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@layer utilities {
+  .animate-auth-field {
+    animation: auth-field-in 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .animate-auth-field {
+      animation: none;
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  /* Auth surfaces: Space Grotesk = display; Inter = body (inputs, copy, footer) */
+  .auth-form-label {
+    @apply font-display text-[10px] font-normal uppercase tracking-[0.1em] text-brand-muted transition-colors duration-300 group-focus-within/field:text-brand-amber sm:text-xs;
+  }
+
+  .auth-form-input {
+    @apply font-sans text-base leading-normal antialiased text-brand-text-bright placeholder:text-brand-placeholder md:text-sm;
+  }
+
+  .auth-eyebrow {
+    @apply font-sans text-xs font-medium uppercase tracking-[0.2em];
+  }
+
+  .auth-footer-text {
+    @apply font-sans uppercase tracking-[0.1em];
+  }
+
+  .auth-status-text {
+    @apply font-sans text-[10px] font-medium uppercase tracking-[0.1em];
+  }
 }

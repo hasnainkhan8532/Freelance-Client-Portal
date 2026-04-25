@@ -1,15 +1,63 @@
 ---
 import "@/styles/global.css"
+import { ViewTransitions } from "astro:transitions"
+import Aurora from "@/components/Aurora"
+
+import geistLatinWoff2 from "@fontsource-variable/geist/files/geist-latin-wght-normal.woff2?url"
+import interLatinWoff2 from "@fontsource-variable/inter/files/inter-latin-wght-normal.woff2?url"
+import spaceGroteskLatinWoff2 from "@fontsource-variable/space-grotesk/files/space-grotesk-latin-wght-normal.woff2?url"
+
+interface Props {
+  title?: string
+}
+
+const { title = "Client Portal" } = Astro.props
+
+const auroraColorStops = ["#080604", "#ffb700", "#2b1405"]
 ---
 
-<html lang="en">
+<html lang="en" class="dark">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <title>Astro App</title>
+    <!-- Preload primary Latin variable fonts so @font-face can apply before first paint (reduces swap CLS). -->
+    <link rel="preload" href={interLatinWoff2} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={spaceGroteskLatinWoff2} as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href={geistLatinWoff2} as="font" type="font/woff2" crossorigin />
+    <!-- swap: instant DOM handoff (no long “animate old/new” pass that feels like a full reload). -->
+    <ViewTransitions fallback="swap" />
+    <title>{title}</title>
   </head>
-  <body>
-    <slot />
+  <body class="min-h-svh bg-brand-surface">
+    <!-- Persist the island (not only a wrapper) + stable props so WebGL state survives route changes. -->
+    <div class="pointer-events-none fixed inset-0 z-0 overflow-hidden" aria-hidden="true">
+      <div class="absolute inset-0 bg-[#050505]"></div>
+      <div class="absolute inset-0 min-h-full min-w-full opacity-[0.55] mix-blend-screen">
+        <Aurora
+          client:load
+          transition:persist="portal-aurora"
+          transition:persist-props
+          transition:animate="none"
+          amplitude={0.95}
+          blend={0.52}
+          colorStops={auroraColorStops}
+        />
+      </div>
+      <div
+        class="absolute inset-0 bg-[radial-gradient(ellipse_80%_60%_at_50%_40%,transparent_20%,rgba(5,5,5,0.92)_75%)]"
+        aria-hidden="true"
+      >
+      </div>
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-black/70 via-transparent to-black/85"
+        aria-hidden="true"
+      >
+      </div>
+    </div>
+
+    <div class="relative z-10 min-h-svh">
+      <slot />
+    </div>
   </body>
 </html>

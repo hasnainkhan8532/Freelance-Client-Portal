@@ -8,9 +8,14 @@ const footerLinks = [
 export function PortalSiteFooter() {
   return (
     <footer className="relative z-10 mt-auto flex w-full flex-col items-center gap-6 px-4 pb-8 pt-4 sm:flex-row sm:items-start sm:justify-between sm:px-8 lg:px-12">
-      <p className="auth-footer-text order-2 text-center text-[11px] text-brand-muted-dim sm:order-1 sm:text-left sm:text-xs">
-        © 2026 Designed by hasnainayaz.com
-      </p>
+      <a
+        href="https://hasnainayaz.com/"
+        target="_blank"
+        rel="noreferrer"
+        className="auth-footer-text order-2 text-center text-[11px] text-brand-muted-dim transition-colors hover:text-brand-muted sm:order-1 sm:text-left sm:text-xs"
+      >
+        © 2026 DESIGNED BY HASNAINAYAZ.COM
+      </a>
       <nav
         className="order-1 flex flex-wrap items-center justify-center gap-x-6 gap-y-2 sm:order-2 sm:justify-end"
         aria-label="Footer"

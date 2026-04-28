@@ -24,6 +24,8 @@ export function SignInPage() {
 
   function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault()
+    // Redirect to dashboard after successful authentication
+    window.location.href = '/dashboard';
   }
 
   return (
@@ -109,18 +111,18 @@ export function SignInPage() {
                 </div>
 
                 <div
-                  className="animate-auth-field flex flex-col gap-3 pt-2 sm:flex-row sm:items-center sm:justify-between sm:gap-2"
+                  className="animate-auth-field flex items-center justify-between gap-2 pt-2"
                   style={{ animationDelay: "220ms" }}
                 >
                   <a
                     href="/forgot-password"
-                    className="auth-footer-text text-center text-[10px] text-brand-muted underline-offset-4 transition-[color,transform] duration-200 hover:text-brand-text sm:text-left"
+                    className="auth-footer-text text-[10px] text-brand-muted underline-offset-4 transition-[color,transform] duration-200 hover:text-brand-text"
                   >
                     Forgot password?
                   </a>
                   <a
                     href="/register"
-                    className="auth-footer-text text-center text-[10px] text-brand-muted underline-offset-4 transition-[color,transform] duration-200 hover:text-brand-text sm:text-right"
+                    className="auth-footer-text text-[10px] text-brand-muted underline-offset-4 transition-[color,transform] duration-200 hover:text-brand-text"
                   >
                     Create an account
                   </a>
@@ -138,7 +140,7 @@ export function SignInPage() {
                       "active:scale-[0.98]"
                     )}
                   >
-                    <span className="relative z-10">Authenticate System</span>
+                    <span className="relative z-10">Authorized System</span>
                     <ChevronRight
                       className="relative z-10 size-5 shrink-0 transition-transform duration-300 ease-out group-hover:translate-x-1"
                       strokeWidth={2.25}

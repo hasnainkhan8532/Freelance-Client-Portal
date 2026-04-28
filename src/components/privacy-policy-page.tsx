@@ -17,7 +17,7 @@ export function PrivacyPolicyPage() {
             <span className="font-sans text-[12px] font-normal uppercase tracking-[3.6px] text-[#ffdba0]">
               REGULATORY FRAMEWORK
             </span>
-            <h1 className="font-display font-bold leading-none tracking-[-0.05em] text-[#fffbf7] text-5xl md:text-7xl lg:text-[96px] lg:leading-[96px] lg:tracking-[-4.8px]">
+            <h1 className="font-display text-5xl font-bold leading-[1] tracking-[-0.05em] text-[#fffbf7] md:text-7xl">
               Privacy{" "}
               <span className="text-[#ffb700]">Policy.</span>
             </h1>

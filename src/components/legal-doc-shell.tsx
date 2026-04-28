@@ -3,20 +3,6 @@ import type * as React from "react"
 import { PortalSiteHeader } from "@/components/portal-site-header"
 import { cn } from "@/lib/utils"
 
-const IconDots = () => (
-  <svg width="11" height="11" viewBox="0 0 11 11" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-    <circle cx="1.5" cy="1.5" r="1.5" />
-    <circle cx="5.5" cy="1.5" r="1.5" />
-    <circle cx="9.5" cy="1.5" r="1.5" />
-    <circle cx="1.5" cy="5.5" r="1.5" />
-    <circle cx="5.5" cy="5.5" r="1.5" />
-    <circle cx="9.5" cy="5.5" r="1.5" />
-    <circle cx="1.5" cy="9.5" r="1.5" />
-    <circle cx="5.5" cy="9.5" r="1.5" />
-    <circle cx="9.5" cy="9.5" r="1.5" />
-  </svg>
-)
-
 const legalNavLinks = [
   { label: "Privacy Policy", iconSrc: "/icons/privacy-policy.svg", href: "/privacy-policy" },
   { label: "Terms of Service", iconSrc: "/icons/terms-of-service.svg", href: "/terms-of-service" },
@@ -90,9 +76,13 @@ function SidebarContent({ activeHref }: SidebarProps) {
             >
               GET SUPPORT
             </button>
-            <a href="/system-status" className="flex items-center gap-3 opacity-50 transition-opacity hover:opacity-75">
-              <IconDots />
-              <span className="font-sans text-[12px] uppercase tracking-[-0.6px] text-[#e5e2e1]">SYSTEM STATUS</span>
+            <a
+              href="https://hasnainayaz.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="w-full text-center font-sans text-[11px] tracking-[-0.2px] text-[#e5e2e1]/70 transition-colors hover:text-[#e5e2e1]"
+            >
+              © 2026 DESIGNED BY HASNAINAYAZ.COM
             </a>
           </div>
         </div>

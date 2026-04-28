@@ -66,12 +66,16 @@ function ChartStyle({ id, config }: { id: string; config: ChartConfig }) {
   )
 }
 
+type ChartTooltipPayloadItem = NonNullable<RechartsPrimitive.TooltipContentProps<number, string>["payload"]>[number]
+
 export function ChartTooltip({
   active,
   payload,
   className,
   indicator = "dot",
-}: RechartsPrimitive.TooltipProps<number, string> & {
+}: {
+  active?: boolean
+  payload?: ChartTooltipPayloadItem[]
   className?: string
   indicator?: "line" | "dot"
 }) {

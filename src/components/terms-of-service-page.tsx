@@ -36,9 +36,8 @@ export function TermsOfServicePage() {
             DOCUMENTATION / LEGAL
           </span>
         </div>
-        <h1 className="text-[#e5e2e1]">
-          Terms of{" "}
-          <span className="text-[#ffb700]">Service</span>
+        <h1 className="font-display text-5xl font-bold leading-[1] tracking-[-0.05em] text-[#e5e2e1] md:text-7xl">
+          Terms of <span className="text-[#ffb700]">Service</span>
         </h1>
         <p className="max-w-[672px] font-sans text-lg font-light leading-[32.5px] text-[#d5c4ab] md:text-xl">
           The framework of our professional relationship. These terms define the rules, requirements, and legalities of using the Architectural Ledger portal.

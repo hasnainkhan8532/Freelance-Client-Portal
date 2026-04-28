@@ -71,7 +71,7 @@ export function CommonInquiriesPage() {
             <span className="h-px w-12 shrink-0 bg-[#ffdba0]" aria-hidden />
             <span className="font-display text-xs font-bold uppercase tracking-[1.2px] text-[#ffdba0]">HELP CENTER</span>
           </div>
-          <h1 className="font-display font-bold leading-none tracking-[-0.05em] text-[#e5e2e1] text-5xl md:text-7xl lg:text-[96px] lg:leading-[96px] lg:tracking-[-4.8px]">
+          <h1 className="font-display text-5xl font-bold leading-[1] tracking-[-0.05em] text-[#e5e2e1] md:text-7xl">
             Common <span className="text-[#ffb700]">Inquiries</span>
           </h1>
           <p className="max-w-[680px] font-sans text-sm leading-6 text-[#d5c4ab] sm:text-base sm:leading-7">

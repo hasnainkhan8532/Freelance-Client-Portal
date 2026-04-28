@@ -66,7 +66,7 @@ export function CreateAccountPage() {
                 className="animate-auth-field flex flex-col gap-4"
                 style={{ animationDelay: "80ms" }}
               >
-                <h1 className="font-display text-4xl font-bold leading-[1.05] tracking-[-0.05em] text-brand-text sm:text-5xl md:text-6xl lg:text-[4.25rem] lg:leading-[1.08]">
+                <h1 className="font-display text-5xl font-bold leading-[1] tracking-[-0.05em] text-brand-text md:text-7xl">
                   <span className="block">Create Your</span>
                   <span className="block text-brand-amber">Account</span>
                 </h1>
@@ -84,7 +84,7 @@ export function CreateAccountPage() {
                     <img
                       src={imgFeatureLayer}
                       alt=""
-                      className="absolute inset-0 size-full max-w-none object-contain transition-[filter,opacity] duration-200 group-hover:opacity-70 group-hover:grayscale"
+                      className="absolute inset-0 size-full max-w-none object-contain transition-opacity duration-200 group-hover:opacity-70"
                       width={11}
                       height={22}
                     />
@@ -107,7 +107,7 @@ export function CreateAccountPage() {
                     <img
                       src={imgFeatureTelemetry}
                       alt=""
-                      className="absolute inset-0 size-full max-w-none object-contain transition-[filter,opacity] duration-200 group-hover:opacity-70 group-hover:grayscale"
+                      className="absolute inset-0 size-full max-w-none object-contain transition-opacity duration-200 group-hover:opacity-70"
                       width={17}
                       height={21}
                     />

@@ -100,10 +100,7 @@ export function SystemStatusPage() {
             <div className="absolute -inset-1 rounded-xl bg-gradient-to-r from-[#ffb700]/30 via-[#ffdb9d]/10 to-transparent opacity-0 blur-lg transition-opacity duration-500 group-hover:opacity-100" />
             <div className="relative flex w-full items-center gap-3 rounded-lg border border-[rgba(255,183,0,0.2)] bg-[#2a2a2a] px-6 py-4 transition-transform duration-300 group-hover:-translate-y-0.5">
               <span className="h-3 w-3 rounded-full bg-[#ffb700] shadow-[0_0_12px_rgba(255,183,0,0.75)]" aria-hidden />
-              <div className="font-display text-base font-bold leading-6 text-[#ffb700]">
-                <p>ALL SYSTEMS</p>
-                <p>OPERATIONAL</p>
-              </div>
+              <p className="font-display text-base font-bold leading-6 text-[#ffb700]">ALL SYSTEMS OPERATIONAL</p>
             </div>
             <span className="font-sans text-[10px] uppercase tracking-[1px] text-[#e5e2e1]/40">LAST VERIFIED: 42 SECONDS AGO</span>
           </div>
